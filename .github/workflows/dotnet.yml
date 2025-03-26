@@ -40,8 +40,8 @@ jobs:
 
     # Build the Docker image
     - name: Build Docker image
-      run: docker build . -t suhilaljomaa/Test_github_actions:latest  # Change 'myusername/myapp' to your Docker Hub repository
+      run: docker build . -t suhilaljomaa/test_github_actions:latest  # Change 'myusername/myapp' to your Docker Hub repository
 
     # Push Docker image to Docker Hub
     - name: Push Docker image
-      run: docker push suhilaljomaa/Test_github_actions:latest  # Change 'myusername/myapp' to your Docker Hub repository
+      run: docker push suhilaljomaa/test_github_actions:latest  # Change 'myusername/myapp' to your Docker Hub repository
